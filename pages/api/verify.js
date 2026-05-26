@@ -1,13 +1,16 @@
 // ─── Certificate database ────────────────────────────────────────────────────
 // Each entry: regNo (6-digit/YYYY/domain), name, fatherName, rollNo,
 //             totalHours, duration, internshipIn
+const HOURS_PER_DAY = 120 / 25;
+const TOTAL_HOURS_FOR_45_DAYS = String(45 * HOURS_PER_DAY);
+
 const CERTIFICATES = [
   {
     regNo: "128470/2026/WD",
     name: "Pari Patodi",
     fatherName: "Ashok Patodi",
     rollNo: "118470",
-    totalHours: "120",
+    totalHours: TOTAL_HOURS_FOR_45_DAYS,
     duration: "12th April 2026 to 27th May 2026",
     internshipIn: "Web Design & Development",
   },
@@ -16,7 +19,7 @@ const CERTIFICATES = [
     name: "Sakshi Agrawal",
     fatherName: "Amit Kumar",
     rollNo: "118492",
-    totalHours: "120",
+    totalHours: TOTAL_HOURS_FOR_45_DAYS,
     duration: "12th April 2026 to 27th May 2026",
     internshipIn: "Web Design & Development",
   },
@@ -25,7 +28,7 @@ const CERTIFICATES = [
     name: "Urvashi Jain",
     fatherName: "Neeraj Jain",
     rollNo: "118511",
-    totalHours: "120",
+    totalHours: TOTAL_HOURS_FOR_45_DAYS,
     duration: "12th April 2026 to 27th May 2026",
     internshipIn: "Web Design & Development",
   },
@@ -34,7 +37,7 @@ const CERTIFICATES = [
     name: "Arjun Trehan",
     fatherName: "Pankaj Trehan",
     rollNo: "118420",
-    totalHours: "120",
+    totalHours: TOTAL_HOURS_FOR_45_DAYS,
     duration: "12th April 2026 to 27th May 2026",
     internshipIn: "Web Design & Development",
   },
