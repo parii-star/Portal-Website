@@ -3,8 +3,8 @@
 //             totalHours, duration, internshipIn
 const CERTIFICATES = [
   {
-    regNo: "118470/2026/WD",
-    name: "Pari Jain",
+    regNo: "128470/2026/WD",
+    name: "Pari Patodi",
     fatherName: "Ashok Patodi",
     rollNo: "118470",
     totalHours: "120",
@@ -12,7 +12,7 @@ const CERTIFICATES = [
     internshipIn: "Web Design & Development",
   },
   {
-    regNo: "118492/2026/WD",
+    regNo: "128492/2026/WD",
     name: "Sakshi Agrawal",
     fatherName: "Amit Kumar",
     rollNo: "118492",
@@ -21,7 +21,7 @@ const CERTIFICATES = [
     internshipIn: "Web Design & Development",
   },
   {
-    regNo: "118511/2026/WD",
+    regNo: "128511/2026/WD",
     name: "Urvashi Jain",
     fatherName: "Neeraj Jain",
     rollNo: "118511",
@@ -30,7 +30,7 @@ const CERTIFICATES = [
     internshipIn: "Web Design & Development",
   },
   {
-    regNo: "118420/2026/WD",
+    regNo: "128420/2026/WD",
     name: "Arjun Trehan",
     fatherName: "Pankaj Trehan",
     rollNo: "118420",
